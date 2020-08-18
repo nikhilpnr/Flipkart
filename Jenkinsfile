@@ -9,6 +9,6 @@ git branch: 'development', credentialsId: 'efb97c80-7286-4107-b52d-fa969b79ef72'
 
 stage("Build Package")
 {
-sh Maven_Home/bin/mvn clean package
+sh $(Maven_Home)/bin/mvn clean package
 }
 }
